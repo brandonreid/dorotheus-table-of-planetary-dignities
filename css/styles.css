@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'zodiac_sregular';
+  src: url('../fonts/zodiac_s-webfont.woff2') format('woff2'), url('../fonts/zodiac_s-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.z {
+  font-family: 'zodiac_sregular';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+table th,
+table td {
+  padding: 0.25em 0.5em;
+  line-height: 1.4em;
+  border: 1px solid #aaa;
+  vertical-align: middle;
+  text-align: center;
+}
+table th {
+  font-weight: 700;
+  background-color: white;
+  border-bottom-width: 2px;
+}
+table thead {
+  font-size: 12px;
+}
+table tr.fire {
+  background-color: #fee8e9;
+}
+table tr.earth {
+  background-color: #f9fff8;
+}
+table tr.air {
+  background-color: #fffff8;
+}
+table tr.water {
+  background-color: #f7f9ff;
+}
+.left-heavy {
+  border-left-width: 4px;
+}
+.subtle {
+  opacity: 0.4;
+}
+sup {
+  font-size: 0.5em;
+  opacity: 0.5;
+}
+.face-col {
+  width: 9em;
+}
+.rul-ex-col {
+  width: 5em;
+}
+body {
+  background-color: #f0f0f0;
+  font-size: 18px;
+}

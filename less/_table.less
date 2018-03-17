@@ -1,0 +1,50 @@
+@border-color: #aaa;
+@th-bg: white;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  th,
+  td {
+    padding: 0.25em 0.5em;
+    line-height: 1.4em;
+    border: 1px solid @border-color;
+    vertical-align: middle;
+    text-align: center;
+  }
+  th {
+    font-weight: 700;
+    background-color: @th-bg;
+    border-bottom-width: 2px;
+  }
+  thead {
+    font-size: 12px;
+  }
+  tr.fire { background-color: #fee8e9; }
+  tr.earth { background-color: #f9fff8; }
+  tr.air { background-color: #fffff8; }
+  tr.water { background-color: #f7f9ff; }
+}
+
+.left-heavy {
+  border-left-width: 4px;
+}
+
+.subtle {
+  opacity: 0.4;
+}
+
+sup {
+  font-size: 0.5em;
+  opacity: 0.5
+}
+
+.face-col {
+  width: 9em;
+}
+
+.rul-ex-col {
+  width: 5em;
+}
