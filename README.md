@@ -1,0 +1,1 @@
+# dorotheus-table-of-planetary-dignities
